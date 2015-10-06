@@ -1,0 +1,162 @@
+body { 
+   width: 800px;
+   background: url("./images/Wid_BG2.gif") top left repeat-y; 
+   font-family: san-serif;
+}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #9685BA;
+}
+
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #BA8596;
+}
+
+a:hover, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+}
+
+
+/* specific divs */
+
+#apollo {
+   position: absolute;
+   top: 15em;
+   left: 500px;
+   background: url("./images/Apollo_BG2.gif") top left no-repeat; 
+   height: 361px;
+   width: 208px;
+   border:0px dashed #000;
+}
+
+#apollo h1 span {
+    display:none
+}
+
+#ltitle {
+   position: relative;
+   height: 53px;
+   border:0px dashed #000;
+}
+
+#title {
+float: right;
+   border:0px dashed #f00;
+}
+
+#bigbox {
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    border:0px solid #000;
+}
+
+
+#ldownloads {
+   width: 14em;
+   margin: 1em;
+   padding: 0.4em 0em 0em 1em;
+   border:1px solid #000;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+}
+
+#ldownloads ul{	
+    margin: 0em;
+    list-style-type: none;
+    padding: 0em 0em 1.5em 2em;
+}
+
+#ltutorials {
+   width: 14em;
+   margin: 1em;
+   padding: 0.4em 0em 0em 1em;
+   border:1px solid #000;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+}
+
+#ltutorials ul{	
+    margin: 0em;
+    list-style-type: none;
+    padding: 0em 0em 1.5em 2em;
+}
+
+
+#lwebstuff {
+   position: absolute;
+   bottom: 1em;
+   right: 1em;
+   width: 21em;
+   padding: 0em 0em 0em 1em;
+   border:1px solid #000;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+}
+
+#lwebstuff ul{	
+    margin: 0em;
+    list-style-type: none;
+    padding: 0em 0em 1.5em 2em;
+}
+
+#lexams {
+   position: absolute;
+   top: 1em;
+   right: 1em;
+   width: 21em;
+   padding: 0em 0em 0em 1em;
+   border:1px solid #000;
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+}
+
+#lexams ul{	
+    margin: 0em;
+    list-style-type: none;
+    padding: 0em 0em 1.5em 2em;
+}
+
+#llinks {
+   margin-left: 80px;
+   position: relative;
+   padding: 1em 1em 1em 1em;
+   border:0px dashed #000;
+}
+
+#llinks ul{
+   list-style-type: none;
+}
+
+/* Bottom Stuff */
+
+#foot {    
+    position: relative;
+    margin-left: 85px;
+    margin-right: 10px;
+    padding: 1em 1em 1em 1em;
+    background: url("./images/Moon_Slice.gif") bottom left no-repeat; 
+    border:0px dashed #000;
+}
+
+#textbox {
+   text-align: justify;
+   margin-left: 80px;
+   margin-right: 50px;
+   position: relative;
+   padding: 1em 1em 1em 1em;
+   border:0px dashed #000;
+}
+
+#oldexam {
+   position: relative;
+   margin-left: 80px;
+   margin-right: 50px;
+   padding: 0.4em 0em 0em 1em;
+   border:0px solid #000;
+}

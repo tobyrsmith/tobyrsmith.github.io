@@ -1,0 +1,153 @@
+body { 
+   margin-left: 120px;
+   margin-top: 51px;
+   width: 780px;
+	 background-image: url("./images/ApolloBG.jpg");
+	 background-repeat: no-repeat;
+	 background-position: top left;
+   font-family: san-serif;
+}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #9685BA;
+}
+
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #BA8596;
+}
+
+a:hover, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+}
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.noshow { display: none; }
+.center { text-align: center; }
+
+#hlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+/* specific divs */
+
+#ltitle {
+   position: relative;
+   height: 55px;
+}
+
+#title {
+   float: right;
+}
+
+
+
+#MainTitle {
+    clear: both;
+    font-weight: bold;
+    font-size: 175%; 
+    text-align: right;
+    padding: 0px 0px 10px 0px;
+    border:0px solid #0f0;
+}
+
+#BookTitle {
+    font-weight: bold;
+    font-size: 125%; 
+    text-align: left;
+    padding: 0px 0px 10px 0px;
+    border:0px solid #0f0;
+}
+
+#BookAuthor {
+    font-style: italic
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    border:0px solid #0f0;
+}
+
+#SubTitle {
+    clear: both;
+    font-weight: bold;
+    font-size: 120%; 
+    text-align: left;
+    width: 300px;
+    padding: 5px 0px 5px 0px;
+    border:0px solid #0f0;
+}
+
+
+#textbox {
+   text-align: justify;
+   position: relative;
+   padding: 0.1em 1em 0.1em 1em;
+   border:0px dashed #000;
+}
+
+
+#FigBox{
+    padding: 0px 10px 2px 2px;
+}
+
+#preview{
+   position: absolute;
+   border:1px solid #ccc;
+   background:#333;
+   padding:5px;
+   display:none;
+   color:#fff;
+}
+
+pre{
+   display: block;
+   font:100% "Courier New", Courier, monospace;
+   padding:0px;
+   border:1px solid #bae2f0;
+   background:#e3f4f9;     
+   margin: 0px 0px 0px 0px;
+   overflow:auto;
+   width:700px;
+}
+
+#tooltip{
+    position:absolute;
+    border:1px solid #333;
+    background:#f7f5d1;
+    padding:2px 5px;
+    color:#333;
+    display:none;
+}       
+
+img{
+    border:none;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Bottom Stuff */
+
+.fleft {
+    text-align: left;
+    float: left;
+}
+
+.fright {
+    text-align: right;
+    float: right;
+}
+
+#FootBox{
+    width:390px;
+}
+
+#foot {
+   clear: both;
+   position: relative;
+}

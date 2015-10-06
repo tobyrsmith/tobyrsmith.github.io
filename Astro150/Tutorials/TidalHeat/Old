@@ -1,0 +1,217 @@
+<html> <head>
+<title>Toby's Tidal Heating Tutorial</title>
+</head>
+
+<!-- As always Blame: Toby Smith <smith@astro.washington.edu> -->
+
+<body bgcolor="#ffffff" text="#000000">
+
+<table border=0 width="100%" cellpadding=3>
+<tr><td align = center colspan=2>
+<h2>The Astro 150 Tidal Heating Tutorial</h2>
+</td></tr>
+
+<tr>
+<td><img width=216 height=212 src = "./images/Io1.jpg"></td>
+<td>
+
+Jupiter's moon Io is about the same mass and size as the Earth's Moon.
+Based on this we would expect Io to have about the same inventory of
+radioactive elements and the same cooling rate as the Moon.  We would
+expect Io to have the same level geological activity as the
+Moon, namely <b>none</b>.  However, Io is the most geologically active
+surface in the Solar system.  This means that the mechanism
+  responsible for heating the interior of Io is very different from
+  that of the Moon.
+
+<p>
+
+The mechanism responsible for heating the interior of Io is called
+<b>Tidal Heating</b>.  This little tutorial is my attempted to explain
+a rather simplified version of the tidal heating of Io.
+</td>
+</tr>
+</table>
+
+<p>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+The force of gravity between two objects (<b>M</b>) and (<b>m</b>)
+depends of their respective mass and the square of the distance
+(<b>d</b>) between them.  The force is very strongly dependent on the
+distance between the objects.
+
+</td>
+<td><img width=340 height=120 src = "./images/GravEq.jpg"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td><img width=279 height=113 src = "./images/Tidal1.gif"></td>
+<td>
+
+This means that when Io orbits Jupiter, the side of Io nearest to
+Jupiter feel a slightly larger gravitational pull than the side of Io
+furthest from Jupiter.  Since Jupiter is very massive (318 times the
+mass of the Earth) this means that this difference is rather large.
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+This <b>difference</b> in gravitational forces actually distorts the
+shape Io.  The image show this effect greatly exaggerated, the actual
+distortion is about 100 meters.  The Earth has the same effect on the
+Moon but to a <b>much</b> lesser extent.  This difference in
+gravitational forces is called the <b>Tidal Force</b>
+
+</td>
+<td><img width=279 height=141 src = "./images/Tidal2.gif"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td><img width=229 height=227 src = "./images/Tidal3.gif"></td>
+<td>
+
+Since Io is in <b>synchronous</b> orbit around Jupiter it keeps the
+same face toward Jupiter at all times (just like the Earth's Moon).
+This means that the distorted shape of Io keeps the same orientation
+with respect to Jupiter (this is a slight simplification).  <b>If</b>
+Io was Jupiter's only moon this would be the end of the story.  Io
+would be in a nice nearly circular orbit about Jupiter with its
+slightly distorted shape.  This is what is happening with the Earth's
+Moon.  <b>No tidal heating would occur</b>.
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+However, Io's orbit is in a 2:1 <b>resonance</b> with the orbit of
+Europa, another moon of Jupiter.  This means that Io make two orbits
+for every one orbit that Europa makes.
+
+</td>
+<td><img width=292 height=166 src = "./images/Tidal4.gif"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td><img width=291 height=158 src = "./images/Tidal5.gif"></td>
+<td>
+
+This means that the orbit of Io is changed.  Io orbit is forced the be
+slightly eccentric (red line, <i>shown very exaggerated</i>).  This
+is the same mechanism that changes the orbits of the asteroid to
+create the <b>Kirkwood Gaps</b>, and changes the orbits of ring
+particles of Saturn, Uranus, and Neptune to create the gaps.
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+Since Io is being forced by Europa into an eccentric orbit, its
+distance from Jupiter constantly changes.  When Io is close to Jupiter
+the tidal forces are greater so the distortion of Io is greater.  When
+Io is further from Jupiter the tidal forces are less so the distortion
+of Io is less.
+
+</td>
+<td><img width=264 height=192 src = "./images/Tidal6.gif"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td><img width=298 height=89 src = "./images/Tidal7.gif"></td>
+<td>
+
+Io goes around Jupiter in 1.8 days.  This means that in 1.8 days the
+shape of Io goes from more distorted figure to a less distorted figure.
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+The constant change in shape of Io causes a large amount of friction
+in the layer of rocks that make up the world.  This friction generates
+a great deal of internal heat.  It is this internal heat source that
+drives the tremendous volcanic activity we see on the surface of Io.
+This heating mechanism is called <b>Tidal Heating</b>
+
+</td>
+<td><img width=209 height=153 src = "./images/promlimb.png"></td>
+</tr>
+</table>
+
+<p>
+
+<center>
+<table border=0 width="90%" cellpadding=3>
+<tr>
+<td bgcolor="#ffeebb">
+
+In order to have <b>Tidal Heating</b> you need:
+
+<ol>
+<li> A massive central planet (Tidal forces depend on mass)
+
+<li> A moon orbiting close to the massive planet (Tidal forces <i>really</i>
+depend on distance).
+
+<li> Another moon in resonance with the inner moon.  (You have to
+force an eccentric orbit in order to keep the distance between the
+inner moon and the planet changing)
+</ol>
+
+<p>
+
+Possible Midterm question: Why does the Earth's Moon <b>not</b>
+undergo tidal heating?  Look at the list above.  What does the
+Earth-Moon system lack that would allow it to tidal heat the Moon?
+
+</td>
+</tr>
+</table>
+</center>
+
+<!-- Blah, Blah, Blah -->
+
+<p>
+
+<a href="http://scienceworld.wolfram.com/physics/TidalHeating.html">
+Gory details</a> are always available!
+
+<p>
+
+<hr>
+
+Another Astro 150 tutorial brought to you by <br> <a
+href="http://www.astro.washington.edu/smith/">Toby Smith</a> <a
+href="mailto:smith@astro.washington.edu">
+ (smith@astro.washington.edu)</a>
+<br>
+<!-- hhmts start -->Last modified: Wed Jun  8 08:56:14 PDT 2005 <!-- hhmts end -->
+</body> </html>

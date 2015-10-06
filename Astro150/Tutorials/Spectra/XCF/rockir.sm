@@ -1,0 +1,37 @@
+erase
+ctype black
+expand 1.5
+lweight 5
+ltype 0
+data rocks_fake.dat
+read wave 1
+read an 3
+read ba 4
+read ol 5
+read leaf 6
+read mars 7
+
+set xwave = 0,1000,1
+spline wave an xwave any
+spline wave ba xwave bay
+spline wave ol xwave oly
+spline wave leaf xwave ly
+spline wave mars xwave my
+
+limits 450 950 0 0.55
+box
+xlabel "Wavelength [nm]"
+ylabel "Reflectance [%]"
+
+ctype red
+con xwave any
+relocate 850 0.31
+label "1"
+
+set oly = oly * 1.15
+
+
+ctype blue
+con xwave oly
+relocate 850 0.13
+label "2"

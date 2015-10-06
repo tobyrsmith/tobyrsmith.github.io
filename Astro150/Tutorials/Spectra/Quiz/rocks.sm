@@ -1,0 +1,54 @@
+erase
+ctype black
+expand 1.5
+lweight 5
+ltype 0
+data rocks.dat
+read wave 1
+read an 3
+read ba 4
+read ol 5
+read leaf 6
+read mars 7
+
+set xwave = 0,1000,1
+spline wave an xwave any
+spline wave ba xwave bay
+spline wave ol xwave oly
+spline wave leaf xwave ly
+spline wave mars xwave my
+
+
+limits 450 950 0 0.55
+box
+xlabel "Wavelength [nm]"
+ylabel "Reflectance [%]"
+
+
+#con wave an
+#con wave blue
+#con wave green
+#con wave yellow
+
+#ctype red
+ltype 0
+con xwave any
+#ctype blue
+ltype 1
+con xwave bay
+#ctype green
+ltype 2
+con xwave oly
+#ctype yellow
+ltype 3
+con xwave ly
+#con xwave my
+
+relocate 750 0.07
+label "Basalt"
+relocate 800 0.2
+label "Olivine"
+relocate 850 0.31
+label "An"
+relocate 850 0.46
+label "Leaf"

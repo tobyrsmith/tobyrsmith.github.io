@@ -1,0 +1,62 @@
+%\hoffset = -0.2in
+\oddsidemargin = -20pt
+\evensidemargin = 0pt
+\topmargin = -30pt
+\textwidth = 6.5in
+\textheight = 9.5in
+\headsep = 0pt
+\headheight = 0pt
+\baselineskip = 24pt
+
+\newcommand{\Top}[1]{ 
+    {\scshape Astronomy 150 \hfill Name: \rule{5cm}{.1mm}}
+    \vskip 0.2cm 
+    {\scshape The Planets \hfill Section: \rule{5cm}{.1mm}}
+    \vskip 7.5mm
+    \begin{center}
+        {\bf \Large #1}
+    \end{center}
+}
+
+\newcommand{\Line}[1]{\rule{#1mm}{.1mm}}
+
+\newcommand{\Space}[1]{\vspace{#1}\phantom}
+
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\let\PBS=\PreserveBackslash
+
+\newcommand{\Pie}{
+ \begin{picture}(100,70)
+   \qbezier(80,5)(100,25)(80,45)
+   \put(0,25){\line(4,1){80}} 
+   \put(0,25){\line(4,-1){80}}
+ \end{picture}
+}
+
+%\newcommand{\deg}{$^{\circ}$}
+
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}
+
+\def\chapter{\clearpage      % May start on right or left
+   \global\@topnum\z@        % Prevents figures from going at top of page.
+   \let\\\relax                  % vers 1.3
+   \secdef\@chapter\@schapter}   % to \@afterindentflase to omit indent.
+
+\newcounter{Question}
+\setcounter{Question}{1}
+\newcommand{\Q}[1]{{\bf \theQuestion} (#1 pts)\stepcounter{Question}} 
+
+\newcommand{\MCQ}{\vskip 2em {\bf \theQuestion} \stepcounter{Question}} 
+
+
+\newcounter{bean}
+
+\newenvironment{MC}
+{
+\begin{list}{(\alph{bean})}{\usecounter{bean}
+    \setlength{\itemsep}{-1ex} \setlength{\topsep}{-1ex} }
+}
+{\end{list}}
+
+
+

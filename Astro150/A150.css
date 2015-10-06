@@ -1,0 +1,126 @@
+body { 
+   margin-left: 120px;
+   margin-top: 51px;
+   width: 780px;
+   background-image: url("./images/Back.jpg");
+   background-repeat: no-repeat;
+   background-position: top left;
+   font-family: san-serif;
+}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #9685BA;
+}
+
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #BA8596;
+}
+
+a:hover, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+}
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.noshow { display: none; }
+
+/* specific divs */
+
+
+#ltitle {
+   position: relative;
+   height: 55px;
+}
+
+#title {
+   float: right;
+}
+
+#SmallBox{
+    text-align:left;
+    width:248px;
+    margin:0; 
+}
+
+#SmallBox h3{
+    text-align:left; 
+}
+
+#linkbox {
+   position: relative;
+   padding: 1em 1em 1em 1em;
+   auto;
+}
+
+#linkbox ul{
+   list-style-type: none;
+}
+
+#textbox ul{
+   list-style-type: none;
+}
+
+#textbox {
+	 clear: both;
+   text-align: justify;
+   position: relative;
+   padding: 1em 1em 1em 1em;
+}
+
+
+.question { 
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333333;
+  margin: 0px 0px 15px 0px;
+  padding: 4px 4px 4px 4px;
+  font-weight: bold;
+}
+
+.answer { 
+  margin: 0px 50px 15px 50px;
+  font-style: italic;
+}
+
+.comment { 
+  color: red;
+  margin: 0px 25px 15px 25px;
+  font-style: normal;
+}
+
+#oldexam {
+   position: relative;
+   margin-left: 80px;
+   margin-right: 50px;
+   padding: 0.4em 0em 0em 1em;
+   border:0px solid #000;
+}
+
+
+/* Bottom Stuff */
+
+.fleft {
+    text-align: left;
+		float: left;
+}
+
+.fright {
+    text-align: right;
+		float: right;
+}
+
+#FootBox{
+    width:390px;
+}
+
+#foot {
+	 clear: both;
+   position: relative;
+}
+

@@ -1,0 +1,25 @@
+erase
+expand 1.5
+lweight 5
+
+set w = 1,3000,1
+
+set T = 5250
+
+set i1 = 1.19e-16 / (w * 1e-9)**5
+set i2 = 0.0143877506 / (w * 1e-9 * T)
+set i3 = 1.0 / (exp(i2) - 1)
+
+set i = i1 * i3 * 3.1415 / 1e11
+
+
+limits 0 2500 0 600
+#limits w i
+
+box
+
+
+con w i
+
+xlabel "Wavelength [nm]"
+ylabel "Power [kJ/nm]"

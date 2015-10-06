@@ -1,0 +1,160 @@
+*{margin:0; padding:0;}
+
+body {
+  font-family: Verdana, Arial, "Trebuchet MS", Sans-Serif, Georgia, Courier, "Times New Roman", Serif;
+  font-size: 12px; 
+  background: #dfdfdf;
+  color: #333; 
+  margin:0; 
+  padding:0;
+  line-height: 135%;
+}
+
+a { color: #7DC5DF; text-decoration: none; }
+a:hover { text-decoration: none; color : #880000; }
+
+img { border: none; padding: 6px; } 
+img a {border:none;} 
+
+ul { list-style-type: none; }
+
+#page {
+  width: 780px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#header { 
+  height: 90px;
+}
+
+#header h1 {
+  font-size: 27px;
+  font-weight: 100;
+  padding: 25px 0 0 20px;
+}
+
+#header h1 a {
+  color: #533882;
+}
+
+#header h1 a:hover {
+  color: #111;
+}
+
+#header h2 {
+  color: #666;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 7px 0 0 20px;
+}
+
+#menu {
+  background: #9ccddf url(../images/menu.jpg) no-repeat;
+  height: 40px;
+  line-height: 40px;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+}
+
+#menu ul li {
+  display: block;
+  float: left;
+}
+
+#menu ul li a {
+  display: block;
+  padding: 0 10px 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+#menu ul li a:hover {
+  color: #fff;
+  background: url(../images/menuover.png) repeat-x;
+}
+
+#wrapper {
+  background: url(../images/shad.jpg) no-repeat top;
+  padding: 0 0 0 20px;
+}
+
+#content {
+  text-align: justify;
+  position: relative;
+  padding: 1em 1em 1em 1em;
+  border:0px dashed #000;
+}
+
+#footer {
+  margin: 0 auto;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  color #fff;	
+  height: 40px;
+  line-height: 50px;
+}
+
+#footer h2 {
+  color: #666;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+#footer p { color: #fff; }
+#footer a { color: #533882; text-decoration: none; }
+#footer a:hover { color: #111; }
+
+#content h2 {
+  font-weight: 100;
+  font-size: 23px;
+  margin: 0 0 4px; padding: 0 0 3px; 
+  color: #999;
+}
+
+#content ul {
+  color: #555555;
+  padding: 10px 30px;
+}
+
+#content ul li {
+  list-style-type: none;
+}
+
+#SmallBox{
+    text-align:left;
+		    width:350px;
+				    margin:0; 
+}
+
+#SmallBox h3{
+    text-align:left; 
+}
+
+#linkbox {
+   position: relative;
+   padding: 1em 1em 1em 1em;
+   border:0px dashed #000;
+   auto;
+}
+
+#linkbox ul{
+   list-style-type: none;
+}
+
+#linkbox h2{
+    text-align:right; 
+}
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.noshow { display: none; }
+

@@ -1,0 +1,219 @@
+<html> <head>
+<title>Astro 150 Roche Limit Tutorial</title>
+</head>
+
+<!-- As always Blame: Toby Smith <smith@astro.washington.edu> -->
+
+<body bgcolor="#ffffff" text="#000000">
+
+<table border=0 width="100%" cellpadding=3>
+<tr><td align = center colspan=2>
+<h2>The Astro 150 Roche Limit Tutorial</h2>
+</td></tr>
+
+<tr>
+
+<td>
+<img width=101 height=150 src = "./images/SaturnRing_small.jpg">
+</td>
+
+<td>
+
+
+The <b>Roche Limit</b> is a useful concept to learn about when trying
+to understand the ring systems around the giant planets Saturn, Uranus
+and Neptune.  (Jupiter's ring system is strange, we will talk about
+that in lecture).  The Roche Limit was first described by the French
+mathematician Edouard Albert Roche (1820 - 1883) in 1848.  The
+simplest definition of the Roche Limit is that it is <i>the closest
+distance a body held together by self-gravity can come to a planet
+without being pulled apart by the planet's tidal (gravity) force</i>.
+What does this mean?  Read on...
+
+</td> 
+</tr> 
+
+</table>
+
+<p>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+In the <a
+href="http://www.astro.washington.edu/smith/Astro150/Gravity/Gravity.html">
+Gravity</a> tutorial, we learned about the force of gravity by
+imagining a universe consisting only of two spherical objects with
+masses <b>M</b> and <b>m</b>.  These masses are separated by a
+distance <b>d</b> (the distance is measured from the center-of-mass of
+the spheres).
+
+</td>
+<td><img width=320 height=141 src = "./images/Gravity0.gif"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td><img width=320 height=108 src = "./images/GravityEq0.jpg"></td>
+<td>
+
+We found that the force of gravity attracting the two sphere together,
+can be express by the, now familiar, formula shown on the right.  The
+important thing to notice in this tutorial, is that force is very
+strongly dependent on the distance between the objects.
+
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+Now let us make the problem a little more interesting by placing the
+two masses (red and blue) in the vicinity of a very large mass
+(yellow).  The red and blue masses are still attracted together by the
+force of gravity.  However, they are also attracted to the large
+yellow mass.
+
+</td>
+<td><img width=278 height=107 src = "./images/Roche0.gif"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+<img width=285 height=122 src = "./images/Roche1.gif"><br>
+</td>
+<td>
+
+Remember that the force of gravity is is very strongly dependent on
+the distance between the objects.  Since the red mass is closer to the
+large yellow mass, it feels a slightly larger gravitational force that
+the blue mass feels.
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td>
+
+This difference in gravitation forces means that the red mass and the
+blue mass would tend to move apart.  As you can see there are two
+forces at work on the red and blue masses.  The gravitational force
+between them will attract them together, while the differential
+gravitational force from the large yellow mass, will separate them.
+
+</td>
+<td><img width=293 height=107 src = "./images/Roche2.gif"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+<td><img width=320 height=213 src = "./images/Roche3.gif"></td>
+<td>
+
+Which of the two forces will dominate depends on the distance the red
+and blue masses are from the large yellow mass.  If the two smaller
+masses are far away from the large mass, the attractive force is
+dominate.  If the two masses are close to the larger mass the
+repulsive force will dominate.  The border between these two cases is
+call the <b>Roche Limit</b>
+
+</td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+
+<td>
+
+The actual location of the Roche Limit depends on the densities of
+masses involved.  For typical objects that we encounter in Astronomy
+150, the location of the Roche Limit is approximately 2.5 times the
+radius of the central planet.  This is measured from the center of the
+central planet, so it is 1.5 radii from the planet's surface.
+
+</td>
+<td><img width=320 height=70 src = "./images/RocheEq.jpg"></td>
+</tr>
+</table>
+
+<table border=0 width="100%" cellpadding=3>
+<tr>
+
+<td><img width=310 height=120 src = "./images/Roche4.gif"></td>
+
+<td>
+
+So what does all of this have to do with rings?  Well, the ring
+systems of the giant planets all lie within the Roche limits of the
+planets.  The rings are remnants of material of the early solar system
+that never formed into satellites because they were within the Roche
+limit.  When two object came together, they did not accrete into a
+larger body, but moved apart and stayed smaller objects.  A bit of an
+oversimplification is: inside Roche limit - Rings, outside Roche limit
+- satellites.
+
+</td>
+</tr>
+</table>
+
+<p>
+
+<b>Gory Details</b> - If you just have to know more, a rigorous
+discussion of the derivation of the Roche limit can be found <a
+href="http://scienceworld.wolfram.com/physics/RocheLimit.html">here</a>.
+
+<p>
+
+<center>
+<table border=0 cellpadding=5 cellspacing=0 width="90%">
+<tr>
+
+<td colspan=1 align="center">
+<img width=45 height=50 src = "./images/Lula_small.jpg">
+</td>
+
+<td colspan=1 align="left">
+
+<b>An interesting fact:</b> 
+
+On July 7, 1992, the Comet <a
+href="http://www.jpl.nasa.gov/sl9/">Shoemaker-Levy 9</a> broke apart
+into 21 pieces due to tidal forces when it passed within Jupiter's
+Roche Limit; on the subsequent pass, each of the comet's pieces
+collided with Jupiter.  The fact that Shoemaker-Levy 9 broke apart
+within Jupiter's Roche limit tells us that the mechanical strength of
+the comet's nucleus was not very great.  The comet's nucleus was most
+likely a <b>rubble pile</b>.  A <b>rubble pile</b> is a weak aggregate
+of large and small particles held together by gravity rather than
+material strength.
+
+</td>
+
+</tr>
+</table>
+</center>
+
+
+<hr>
+
+Another Astro 150 tutorial brought to you by <br> <a
+href="http://www.astro.washington.edu/smith/">Toby Smith</a> <a
+href="mailto:smith@astro.washington.edu">
+ (smith@astro.washington.edu)</a>
+<br>
+<!-- hhmts start -->
+Last modified: Mon Aug  5 10:20:00 2002
+<!-- hhmts end -->
+</body> </html>
+

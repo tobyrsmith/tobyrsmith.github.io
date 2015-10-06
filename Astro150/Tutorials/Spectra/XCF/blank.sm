@@ -1,0 +1,10 @@
+erase
+ctype black
+expand 1.5
+lweight 5
+ltype 0
+
+limits 450 950 0 1.0
+box
+xlabel "Wavelength [nm]"
+ylabel "Reflectance [%]"

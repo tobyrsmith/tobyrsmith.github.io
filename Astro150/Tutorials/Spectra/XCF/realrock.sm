@@ -1,0 +1,38 @@
+erase
+ctype black
+expand 1.5
+lweight 5
+ltype 0
+
+data andradite.dat
+read wave 1
+read an 2
+
+data natrolite.dat
+read na 2
+
+set wave = wave * 1000.0
+
+limits 450 3000 0 1.0
+box
+xlabel "Wavelength [nm]"
+ylabel "Reflectance [%]"
+
+ctype red
+ltype 0
+con wave an
+
+ctype blue
+con wave na
+
+#ctype blue
+#ltype 1
+#con xwave bay
+#ctype green
+#ltype 2
+#con xwave oly
+#ctype yellow
+#ltype 3
+#con xwave ly
+#con xwave my
+

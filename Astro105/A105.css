@@ -1,0 +1,86 @@
+body { 
+   margin-left: 120px;
+   margin-top: 50px;
+   width: 780px;
+   background-image: url("./images/ApolloBG.jpg");
+   background-repeat: no-repeat;
+   background-position: top left;
+   font-family: san-serif;
+}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #9685BA;
+}
+
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #BA8596;
+}
+
+a:hover, a:active { 
+    text-decoration: underline; 
+    color: #9685BA;
+}
+
+.left { float: left; }
+.right { float: right; }
+.clear { clear: both; }
+.noshow { display: none; }
+
+/* specific divs */
+
+
+#ltitle {
+   position: relative;
+   height: 55px;
+   border:0px dashed #000;
+}
+
+#title {
+   float: right;
+   border:0px dashed #f00;
+}
+
+#SmallBox{
+    text-align:left;
+    width:350px;
+    margin:0; 
+}
+
+#SmallBox h3{
+    text-align:right; 
+}
+
+#linkbox {
+   position: relative;
+   padding: 1em 1em 1em 1em;
+   border:0px dashed #000;
+   auto;
+}
+
+#linkbox ul{
+   list-style-type: none;
+}
+
+#textbox ul{
+   list-style-type: none;
+}
+
+#textbox {
+   text-align: justify;
+   position: relative;
+   padding: 1em 1em 1em 1em;
+   border:0px dashed #000;
+}
+
+/* Bottom Stuff */
+
+#foot {    
+    position: relative;
+    padding: 1em 1em 1em 1em;
+    border:0px dashed #000;
+}
+

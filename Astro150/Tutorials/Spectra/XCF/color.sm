@@ -1,0 +1,45 @@
+erase
+ctype black
+expand 1.5
+lweight 5
+data rubber.dat
+read wave 1
+read red 3
+read blue 4
+read green 5
+read yellow 6
+
+set xwave = 0,1000,1
+spline wave red xwave ry
+spline wave blue xwave by
+spline wave green xwave gy
+spline wave yellow xwave yy
+
+# Too Bright!
+
+set scale = 0.6
+
+set ry = ry * scale
+set by = by * scale
+set gy = gy * scale
+set yy = yy * scale
+
+
+limits 450 750 0 1.0
+box
+xlabel "Wavelength [nm]"
+ylabel "Reflectance [%]"
+
+
+#con wave red
+#con wave blue
+#con wave green
+#con wave yellow
+ctype red
+con xwave ry
+#ctype blue
+#con xwave by
+#ctype green
+#con xwave gy
+#ctype yellow
+#con xwave yy

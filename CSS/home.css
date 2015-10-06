@@ -1,0 +1,142 @@
+body {
+    margin-top:   60px;
+    margin-right: 100px;
+    margin-left:  105px;
+    font-family: serif;
+    color: black;
+    background-image: 
+    url("../images/MoonBG.jpg");
+    background-repeat: 
+    no-repeat;
+    background-position: 
+    top left
+}
+
+a{
+    outline: none;
+}
+
+a:link { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #9685BA;
+}
+
+a:visited { 
+    font-weight: bold; 
+    text-decoration: none; 
+    color: #BA8596;
+}
+
+a:hover, a:active { 
+    text-decoration: none; 
+    color: #A695CA;
+}
+
+/* specific divs */
+
+#title {
+   text-decoration: none;
+   padding: 0px 0px 0px 0px;
+   border:0px dashed #f00;
+}
+
+#titlebox { 
+    text-align: right;
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    border:0px solid #000;
+}
+
+#ltitle { 
+    text-align: right;
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    border:0px solid #000;
+}
+
+#bigbox { 
+    text-align: justify;
+    padding: 0px 0px 0px 0px;
+    margin-left: 0px;
+    margin-right:135px;
+		min-height: 230px;
+    border:0px solid #000;
+}
+
+
+#textbox { 
+    text-align: justify;
+    padding: 15px 15px 15px 15px;
+    border:0px solid #0f0;
+}
+
+#textbox h3{
+    text-align: right;
+    display: block;
+    width: 50;
+    width: auto;
+    margin-left: 50%;
+    border:0px solid #000000;
+}
+
+ul.navbar {
+    list-style-type: none;
+    padding: 0px 0px 0px 0px;
+    border:0px dashed #f00;
+}
+
+#CSMbox {
+    float:right;
+    width: 100px;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    border:0px dashed #00f;
+}
+
+/* Rounded Corners */
+
+.bl {background: url("../images/bl.png") 0 100% no-repeat #efefef;}
+.br {background: url("../images/br.png") 100% 100% no-repeat}
+.tl {background: url("../images/tl.png") 0 0 no-repeat}
+.tr {background: url("../images/tr.png") 100% 0 no-repeat; padding:5px}
+.clear {font-size: 1px; height: 1px}
+
+#tcsm {
+     height: 56px;
+     background-image:  url("../images/CSMt.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     border: 0px dashed: #0f0;
+}
+
+
+#bcsm {
+    height: 65px;
+    background-image:  url("../images/CSMb.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border: 0px dashed: #0f0;
+}
+
+/* End Stuff */
+
+
+#foot {
+    background-color: #efefef;
+    padding: 5px;
+    margin-left: 0px;
+    margin-right:0px;
+    border:0px solid #000;
+}
+
+#date {
+    text-align: right;
+    padding: 1px;
+    margin-left: 0px;
+    margin-right:0px;
+    border:0px dashed #000;
+}
+

@@ -1,0 +1,3 @@
+# serve alternate default index page
+DirectoryIndex ApolloBooks.html
+

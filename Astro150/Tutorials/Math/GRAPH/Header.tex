@@ -1,0 +1,45 @@
+\documentclass[12pt]{book}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{lab}
+\usepackage{fancyhdr}
+\usepackage{shadow}
+\usepackage{array}
+%\usepackage[Sonny]{fncychap}
+\usepackage{wrapfig}
+\usepackage{multicol}
+
+\newcounter{Lab}
+\setcounter{Lab}{-1}
+
+\newcommand{\Labtitle}[1]{
+\stepcounter{Lab}
+\noindent
+%\rule{\linewidth}{1pt}\\[5pt]
+\textsc{\large Lab \#\theLab \hfill #1}\\
+\rule{\linewidth}{1pt}
+\vspace*{-5mm}
+}
+
+
+\pagestyle{fancy}
+\fancyhf{}%
+\lfoot{\scshape Astronomy 150}%
+\cfoot{\theLab\ -- \thepage}%
+\rfoot{\scshape The Planets}%
+\renewcommand{\headrulewidth}{0pt}
+
+\newcommand{\s}{\rule[-4mm]{0cm}{9mm}}
+
+
+
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0pt}%
+                       {-0.5\baselineskip}{0.5\baselineskip}%
+                       {\normalfont\large\bfseries}%
+}
+\makeatother
+
+\begin{document}
+
+
