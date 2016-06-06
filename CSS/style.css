@@ -18,6 +18,20 @@ img a {border:none;}
 
 ul { list-style-type: none; }
 
+table, th, td {
+		   border: 1px solid black;
+			 text-align: center;
+}
+
+table {
+		width: 40%;
+}
+
+th {
+    padding: 5px;
+}
+
+
 #page {
   width: 780px;
   margin: 0 auto;
