@@ -21,6 +21,10 @@ a:hover, a:active {
     color: #9685BA;
 }
 
+ul li{
+		 font-size:14px;
+}
+
 
 /* specific divs */
 

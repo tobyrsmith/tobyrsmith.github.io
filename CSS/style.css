@@ -18,6 +18,10 @@ img a {border:none;}
 
 ul { list-style-type: none; }
 
+ul li{
+		 font-size:14px;
+}
+
 table, th, td {
 		   border: 1px solid black;
 			 text-align: center;
