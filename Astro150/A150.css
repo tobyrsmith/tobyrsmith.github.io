@@ -7,7 +7,8 @@ body {
    background-repeat: no-repeat;
    background-position: top left;
 	 */
-   font-family: san-serif;
+   font-family: serif;
+   font-size: 18px;
 }
 
 a:link { 
