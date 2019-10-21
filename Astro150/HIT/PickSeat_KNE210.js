@@ -92,7 +92,7 @@ var Seat2 = ["F01","F02","F03","F04","F05","F06","F07","F08","F09","F10",
            ];
 
 
-var SeatA = Seat1.concat(Seat2);
+var Seat = Seat1.concat(Seat2);
  
 function pad(num, size) {
 	var s = "0000" + num;
